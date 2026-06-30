@@ -15,7 +15,10 @@
     <header id="header">
         <div class="container header-container">
             <div class="logo">
-                <a href="#inicio">SERGAS</a>
+                <a href="#inicio">
+                    <span class="logo-icon">⚙️</span>
+                    <span class="logo-text">SERGAS</span>
+                </a>
             </div>
             <nav id="navbar">
                 <ul class="nav-menu">
@@ -38,24 +41,28 @@
         <section id="inicio" class="hero">
             <div class="container hero-container">
                 <div class="hero-content">
+                    <div class="hero-badge">⚙️ SEC Clase I / S-Salud</div>
                     <h1>Líderes en <span>Ingeniería Térmica</span></h1>
                     <p>Calderas | Piping | Montajes Mecánicos</p>
                     <p class="hero-sub">Expertos en Soluciones Metalmecánicas desde 2017</p>
                     <a href="#contacto" class="btn-primary">Solicita una Cotización</a>
                 </div>
                 <div class="hero-image">
-                    <!-- SVG decorativo o puedes poner una imagen -->
-                    <i class="fas fa-industry"></i>
+                    <div class="gear-animation">
+                        <i class="fas fa-cog"></i>
+                        <i class="fas fa-cog"></i>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- SECCIÓN SERVICIOS (se renderiza con JS desde data.json) -->
+        <!-- SECCIÓN SERVICIOS -->
         <section id="servicios" class="services">
             <div class="container">
                 <h2>Nuestros Servicios</h2>
+                <p class="section-subtitle">Soluciones industriales con la más alta calidad y certificación</p>
                 <div id="services-grid" class="services-grid">
-                    <!-- Los servicios se cargarán desde data.json con JavaScript -->
+                    <!-- Los servicios se cargarán desde data.json -->
                 </div>
             </div>
         </section>
@@ -66,9 +73,26 @@
                 <div class="about-grid">
                     <div class="about-content">
                         <h2>Sobre SERGAS</h2>
-                        <p class="badge">SEC Clase I / S-Salud Decreto N°10-12 MINSAL</p>
+                        <div class="badge-container">
+                            <span class="badge">🔧 SEC Clase I</span>
+                            <span class="badge">🏥 S-Salud Decreto N°10-12 MINSAL</span>
+                        </div>
                         <p><strong>Misión:</strong> Somos una empresa que se desarrolla en el sector metalmecánico y calderería, ofreciendo servicio de ingeniería con fuerza laboral calificada. Comprometidos con la innovación, mejoramiento continuo, salud ocupacional y el cuidado del medio ambiente.</p>
                         <p><strong>Visión:</strong> Consolidarnos como un socio estratégico para la industria nacional, que aporte directamente en el alza de los índices de productividad de cada uno de nuestros clientes.</p>
+                        <div class="about-values">
+                            <div class="value-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Calidad</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Seguridad</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-leaf"></i>
+                                <span>Sostenibilidad</span>
+                            </div>
+                        </div>
                     </div>
                     <div class="about-stats">
                         <div class="stat-item">
@@ -88,12 +112,13 @@
             </div>
         </section>
 
-        <!-- SECCIÓN CONTACTO ACTUALIZADA (datos desde JSON) -->
+        <!-- SECCIÓN CONTACTO -->
         <section id="contacto" class="contact">
             <div class="container">
                 <h2>Contáctanos</h2>
+                <p class="section-subtitle">Estamos listos para atender tus necesidades industriales</p>
                 <div id="contact-grid" class="contact-grid">
-                    <!-- Los datos de contacto se cargarán desde data.json con JavaScript -->
+                    <!-- Datos desde data.json -->
                 </div>
             </div>
         </section>
@@ -105,8 +130,12 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <h3>SERGAS</h3>
+                    <h3>⚙️ SERGAS</h3>
                     <p>Líderes en Ingeniería Térmica y Soluciones Metalmecánicas.</p>
+                    <div class="footer-certifications">
+                        <span>SEC Clase I</span>
+                        <span>MINSAL</span>
+                    </div>
                 </div>
                 <div class="footer-links">
                     <h4>Enlaces Rápidos</h4>
@@ -131,7 +160,6 @@
         </div>
     </footer>
 
-    <!-- ========== JAVASCRIPT ========== -->
     <script src="script.js"></script>
 </body>
 </html>
