@@ -1,0 +1,23 @@
+# ============================================
+# REDIRECCIONES PARA NETLIFY (SPA ROUTING)
+# ============================================
+
+# Redirección principal: Todas las rutas van a index.html
+/*    /index.html    200
+
+# Redirección 301: Si cambias URLs, agrégalas aquí
+# Ejemplo: /antigua-url    /nueva-url    301
+
+# Personalizar página 404 (opcional)
+# /404.html   404
+
+# ============================================
+# REGLAS DE SEGURIDAD (Opcionales)
+# ============================================
+
+# Bloquear acceso a archivos de configuración
+# /.env    403
+# /config/*    403
+
+# Redirigir www a dominio sin www (o viceversa)
+# https://www.sergaschile.com/*  https://sergaschile.com/:splat  301

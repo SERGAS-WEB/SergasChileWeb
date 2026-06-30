@@ -1,0 +1,55 @@
+{
+  "servicios": [
+    {
+      "id": 1,
+      "icono": "fa-fire",
+      "titulo": "Calderas",
+      "descripcion": "Diseño, fabricación, instalación y reparación de calderas, generadores de vapor y otros equipos térmicos."
+    },
+    {
+      "id": 2,
+      "icono": "fa-cogs",
+      "titulo": "Montaje Mecánico",
+      "descripcion": "Instalación profesional de equipos industriales con personal certificado y amplia experiencia."
+    },
+    {
+      "id": 3,
+      "icono": "fa-pipe",
+      "titulo": "Piping",
+      "descripcion": "Acero carbono, inoxidable y galvanizado para todas tus necesidades de tuberías industriales."
+    },
+    {
+      "id": 4,
+      "icono": "fa-thermometer-half",
+      "titulo": "Aislamiento Térmico",
+      "descripcion": "Soluciones eficientes para optimizar el rendimiento energético y reducir pérdidas de calor."
+    },
+    {
+      "id": 5,
+      "icono": "fa-paint-roller",
+      "titulo": "Pintura Industrial",
+      "descripcion": "Granallado y pintura industrial con acabados de alta calidad y protección anticorrosiva."
+    },
+    {
+      "id": 6,
+      "icono": "fa-gas-pump",
+      "titulo": "Sistemas de Gas",
+      "descripcion": "Instalación de sistemas de gas licuado y gas natural, completamente certificados."
+    }
+  ],
+  "contacto": {
+    "direccion": "Ruta D-43, Sector Las Barrancas, Coquimbo",
+    "email": "contactosergas@gmail.com",
+    "telefonos": [
+      {
+        "nombre": "Manuel Orellana",
+        "numero": "+569 73393666"
+      },
+      {
+        "nombre": "Wilson Barrientos",
+        "numero": "+569 99991606"
+      }
+    ],
+    "sitioWeb": "www.sergaschile.com"
+  }
+}
